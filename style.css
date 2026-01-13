@@ -24,6 +24,13 @@ p {
 ul {
   padding-left: 20px;
 }
+.section {
+  background: #ffffff;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
 
 li {
   margin-bottom: 8px;
