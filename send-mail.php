@@ -32,7 +32,7 @@ try {
     // Headers
     $mail->setFrom('info@rkten.com', 'RKTen Website');
     $mail->addReplyTo($email, $name);
-    $mail->addAddress('info@rkten.com');
+    $mail->addAddress('shivanipathak0210@gmail.com');
 
     // Content
     $mail->isHTML(true);
