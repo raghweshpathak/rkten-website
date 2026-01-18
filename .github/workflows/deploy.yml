@@ -1,4 +1,4 @@
-name: Deploy to EC2
+name: Deploy RKTen Website to EC2
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy to EC2
         run: |
-          ssh ubuntu@65.0.139.27 << 'EOF'
+          ssh -i ~/.ssh/id_ed25519 ubuntu@65.0.139.27 << 'EOF'
             cd /var/www/html
             git pull origin main
             sudo systemctl reload nginx
