@@ -10879,7 +10879,11 @@ p {
   border: none;
   transition: all 0.3s ease;
 }
-
+.btn-social:hover {
+  background-color: #ffc800;
+  color: #000;
+  transform: translateY(-3px);
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
