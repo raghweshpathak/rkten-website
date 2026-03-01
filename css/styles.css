@@ -11368,3 +11368,13 @@ section#contact form#contactForm :-ms-input-placeholder {
     opacity: 1;
     transform: translateY(0);
 }
+/* Same lift effect as Team */
+
+.service-card {
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
