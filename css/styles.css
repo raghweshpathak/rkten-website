@@ -11383,3 +11383,16 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding: 30px;
     border-radius: 8px;
 }
+/* Why Section Elevation */
+
+.why-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
