@@ -11378,3 +11378,8 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
+.service-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
