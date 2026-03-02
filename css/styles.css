@@ -11443,3 +11443,17 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-12px);
     box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
 }
+/* Contact Inputs - Exact Team Effect */
+
+#contact input.form-control,
+#contact textarea.form-control {
+    transition: all 0.3s ease;
+}
+
+#contact input.form-control:hover,
+#contact textarea.form-control:hover,
+#contact input.form-control:focus,
+#contact textarea.form-control:focus {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
