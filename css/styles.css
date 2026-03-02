@@ -11470,27 +11470,4 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding: 10px 0;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
-/* ===== Safe Section Spacing System ===== */
 
-/* Default vertical rhythm */
-.page-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-/* Hero ke baad thoda extra breathing */
-header.masthead {
-    margin-bottom: 60px;
-}
-
-/* Contact section ko thoda balanced feel */
-#contact {
-    padding-top: 110px;
-    padding-bottom: 110px;
-}
-
-/* Team section slight luxury spacing */
-#team {
-    padding-top: 110px;
-    padding-bottom: 110px;
-}
