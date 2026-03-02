@@ -11422,6 +11422,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .timeline li:hover .timeline-panel,
 .timeline li:hover .timeline-image {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
