@@ -11425,3 +11425,21 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-12px);
     box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
+/* Contact Inputs - Same as Team */
+#contact .form-control {
+    transition: all 0.3s ease;
+}
+
+#contact .form-control:hover,
+#contact .form-control:focus {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+#contact .btn {
+    transition: all 0.3s ease;
+}
+
+#contact .btn:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
