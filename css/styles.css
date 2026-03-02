@@ -11457,3 +11457,13 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-12px);
     box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
 }
+#mainNav {
+    transition: all 0.3s ease;
+}
+
+#mainNav.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
