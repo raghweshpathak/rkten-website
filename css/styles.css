@@ -11470,4 +11470,23 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding: 10px 0;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
+/* Reduce excessive vertical gaps */
 
+#services {
+    padding-bottom: 80px;
+}
+
+#portfolio {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#team {
+    padding-bottom: 70px;
+}
+
+/* Logo strip compact */
+.clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
