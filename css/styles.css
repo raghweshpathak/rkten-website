@@ -11490,7 +11490,28 @@ section#contact form#contactForm :-ms-input-placeholder {
     pointer-events: none;
 }
 
-/* Light Section → Light Section subtle separation */
+/* ===== Refined Section Fade Gradient ===== */
+
+#services {
+    position: relative;
+    z-index: 1;
+}
+
+#services::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0));
+    pointer-events: none;
+}
+
+/* Soft white blend between light sections */
 .page-section {
     position: relative;
 }
@@ -11498,12 +11519,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 .page-section + .page-section::before {
     content: "";
     position: absolute;
-    top: -60px;
+    top: -70px;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background: linear-gradient(to bottom,
-        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0.95),
+        rgba(255, 255, 255, 0.5),
         rgba(255, 255, 255, 0));
     pointer-events: none;
 }
