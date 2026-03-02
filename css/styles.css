@@ -11393,8 +11393,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .why-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
 /* Expertise Section Elevation */
 
@@ -11406,8 +11406,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .expertise-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
 /* About Timeline Full Elevate Effect */
 
