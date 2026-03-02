@@ -11470,3 +11470,40 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding: 10px 0;
     box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
+/* ===== Section Fade Gradient Blend ===== */
+
+/* Hero → Next Section */
+#services {
+    position: relative;
+}
+
+#services::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to bottom, 
+        rgba(13, 17, 23, 1), 
+        rgba(13, 17, 23, 0));
+    pointer-events: none;
+}
+
+/* Light Section → Light Section subtle separation */
+.page-section {
+    position: relative;
+}
+
+.page-section + .page-section::before {
+    content: "";
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0));
+    pointer-events: none;
+}
