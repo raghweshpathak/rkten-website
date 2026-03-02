@@ -11396,3 +11396,16 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
+/* Expertise Section Elevation */
+
+.expertise-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.expertise-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
