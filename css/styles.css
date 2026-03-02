@@ -11490,3 +11490,16 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+/* Reduce gap before About section */
+#about {
+    padding-top: 70px;
+}
+/* Reduce extra space in timeline section */
+#about .timeline {
+    margin-bottom: 60px;
+}
+
+/* Tighten Team section top */
+#team {
+    padding-top: 80px;
+}
