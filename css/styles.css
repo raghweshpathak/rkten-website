@@ -11409,3 +11409,19 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 }
+/* About Timeline Full Elevate Effect */
+
+.timeline li {
+    transition: all 0.3s ease;
+}
+
+.timeline li .timeline-panel,
+.timeline li .timeline-image {
+    transition: all 0.3s ease;
+}
+
+.timeline li:hover .timeline-panel,
+.timeline li:hover .timeline-image {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
