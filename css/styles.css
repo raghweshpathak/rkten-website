@@ -11425,3 +11425,24 @@ section#contact form#contactForm :-ms-input-placeholder {
     transform: translateY(-12px);
     box-shadow: 0 20px 45px rgba(0,0,0,0.15);
 }
+/* Contact same as Team */
+#contact form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+#contact form:hover {
+    transform: translateY(-12px); /* Same as Team */
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15); /* Same as Team */
+}
+
+/* Button slight mini-lift (Team social button jaisa subtle) */
+#contact .btn {
+    transition: all 0.3s ease;
+}
+
+#contact .btn:hover {
+    transform: translateY(-4px);
+}
